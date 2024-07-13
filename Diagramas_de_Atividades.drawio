@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" modified="2024-07-13T20:27:10.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5S0-b91t8m5SXyrc24bk" version="24.6.5" type="github">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Cadastrar Paciente" style="swimlane;whiteSpace=wrap;startSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164.5" y="124" width="275.5" height="578" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="5" target="7" edge="1">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="115" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Iniciar Cadastro" style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Inserir Dados" style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Validar Dados" style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="8" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114.5" y="370" as="sourcePoint" />
+            <mxPoint x="114.5" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-42" value="Salvar Paciente" style="" vertex="1" parent="2">
+          <mxGeometry x="60" y="426" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-43" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115.5" y="476" as="sourcePoint" />
+            <mxPoint x="115.5" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-44" value="Concluir Cadastro" style="" vertex="1" parent="2">
+          <mxGeometry x="60" y="506" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Registrar Consulta" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="445" y="128" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
+          <mxGeometry x="125.5" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="13" target="15" edge="1">
+          <mxGeometry x="40" y="20" as="geometry">
+            <mxPoint x="55" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Iniciar Registro" style="" parent="3" vertex="1">
+          <mxGeometry x="85.5" y="112" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Inserir &#xa;Detalhes&#xa; da Consulta" style="" parent="3" vertex="1">
+          <mxGeometry x="85.5" y="202" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="15" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Validar Dados" style="" parent="3" vertex="1">
+          <mxGeometry x="85.5" y="312" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="16" target="18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Salvar Consulta" style="" parent="3" vertex="1">
+          <mxGeometry x="85.5" y="402" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Concluir Registro" style="shape=note;whiteSpace=wrap;size=17" parent="3" vertex="1">
+          <mxGeometry x="85.5" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-57" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="342" as="sourcePoint" />
+            <mxPoint x="139.5" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-58" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.6;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3" target="31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="452" as="sourcePoint" />
+            <mxPoint x="140" y="482" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Acessar Calendário de Consultas" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="730" y="128" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="Visualizar Detalhes" style="" parent="4" vertex="1">
+          <mxGeometry x="75.5" y="392" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-45" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="115.5" y="42" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="4">
+          <mxGeometry x="-684.5" y="-108" as="geometry">
+            <mxPoint x="131" y="112" as="targetPoint" />
+            <mxPoint x="130" y="72" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-47" value="Iniciar Acesso" style="" vertex="1" parent="4">
+          <mxGeometry x="75.5" y="122" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="4">
+          <mxGeometry x="-1409" y="-236" as="geometry">
+            <mxPoint x="131" y="212" as="targetPoint" />
+            <mxPoint x="130" y="172" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-49" value="Visualizar&#xa; Calendário" style="" vertex="1" parent="4">
+          <mxGeometry x="75.5" y="212" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-52" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="4">
+          <mxGeometry x="-2133.5" y="-364" as="geometry">
+            <mxPoint x="131" y="302" as="targetPoint" />
+            <mxPoint x="130" y="262" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-53" value="Selecionar Data" style="" vertex="1" parent="4">
+          <mxGeometry x="75.5" y="302" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-54" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="4">
+          <mxGeometry x="-2863.5" y="-492" as="geometry">
+            <mxPoint x="131" y="392" as="targetPoint" />
+            <mxPoint x="130" y="352" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-55" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="4">
+          <mxGeometry x="-3593.5" y="-620" as="geometry">
+            <mxPoint x="131" y="482" as="targetPoint" />
+            <mxPoint x="130" y="442" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y1scMq8MZhiKepzZpFp-56" value="Concluir Acesso" style="" vertex="1" parent="4">
+          <mxGeometry x="70" y="482" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
